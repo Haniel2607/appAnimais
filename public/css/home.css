@@ -1,9 +1,8 @@
-
+/* public/css/home.css */
 .home-container {
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    border-radius: 20px;
 }
 
 .home-container h1 {
@@ -15,11 +14,11 @@
 }
 
 .missão-container, .visão-container, .valores-container {
-    border: 2px solid #ffffff;
+    border: 2px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
-    text-align: justify;
+    text-align: justify; /* Justifica o texto */
 }
 
 .missão-container {
@@ -38,4 +37,9 @@
     border-color: #e0a800;
     background-color: #ffc107;
     color: white;
+}
+
+.highlight {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Opcional: deixa a palavra em negrito */
 }

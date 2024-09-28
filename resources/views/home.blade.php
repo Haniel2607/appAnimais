@@ -6,8 +6,8 @@
 
 @section('content')
 <div class="container home-container">
-    <h1>Bem-vindo ao nosso Sistema de Gerenciamento de Animais!</h1>
-    
+    <h1>Bem-vindo ao Sistema de Gerenciamento de Animais!</h1>
+
     <div class="row">
         <div class="col-md-4 missão-container">
             <h2>Missão</h2>
@@ -24,22 +24,21 @@
         <div class="col-md-4 valores-container">
             <h2>Valores</h2>
             <ul>
-                <li>Conservação: Comprometemo-nos a promover práticas que ajudem na proteção e preservação das espécies.
-                </li>
-                <li>Inovação: Buscamos constantemente melhorar nossa plataforma e processos, incorporando novas
-                    tecnologias e ideias.</li>
-                <li>Transparência: Atuamos com clareza e honestidade em todas as nossas ações, garantindo confiança e
-                    integridade.</li>
-                <li>Colaboração: Valorizamos o trabalho em equipe e a parceria com organizações e indivíduos que
-                    compartilham nossa missão.</li>
-                <li>Educação: Acreditamos que a informação é a chave para a conservação e buscamos educar nossos
-                    usuários sobre a importância da biodiversidade.</li>
+                <li><span class="highlight">Conservação:</span> Comprometemo-nos a promover práticas que ajudem na
+                    proteção e preservação das espécies.</li>
+                <li><span class="highlight">Inovação:</span> Buscamos constantemente melhorar nossa plataforma e
+                    processos, incorporando novas tecnologias e ideias.</li>
+                <li><span class="highlight">Transparência:</span> Atuamos com clareza e honestidade em todas as nossas
+                    ações, garantindo confiança e integridade.</li>
+                <li><span class="highlight">Colaboração:</span> Valorizamos o trabalho em equipe e a parceria com
+                    organizações e indivíduos que compartilham nossa missão.</li>
+                <li><span class="highlight">Educação:</span> Acreditamos que a informação é a chave para a conservação e
+                    buscamos educar nossos usuários sobre a importância da biodiversidade.</li>
             </ul>
         </div>
     </div>
-</div>
-@endsection
+    @endsection
 
-@section('scripts')
-<script src="{{ asset('js/home.js') }}"></script>
-@endsection
+    @section('scripts')
+    <script src="{{ asset('js/home.js') }}"></script>
+    @endsection
